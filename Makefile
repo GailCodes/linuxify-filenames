@@ -1,5 +1,7 @@
 # Generate test files
 tests:
+	rm -rf test-files
+	mkdir test-files
 	rm -rf test-files/*
 	touch test-files/hello\ there.txt
 	touch test-files/hello\ \ \ \ bYe.tXt
